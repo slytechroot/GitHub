@@ -1,2 +1,2 @@
 # GitHub
-GitHub knowledge base
+GitHub knowledge base, cheatsheets, dumps, dorks and more.
