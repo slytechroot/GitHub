@@ -1,0 +1,37 @@
+git branch "descriptive-greetings"
+git status
+git branch
+git checkout descriptive-greetings
+git branch 
+(now "descriptive-greetings" is in green)
+
+git status
+(nothing to commit)
+
+ls
+
+vi greetings.py
+
+git status
+git add greetings.py
+git commit -m "added motivation phrase"
+
+ls
+vi moon_flight.py
+(add some text)
+
+git status
+(moon_flight.py added)
+git add moon_flight.py
+git commit -m "added moon flight file and functionality"
+
+(push the changes back to the master)
+git push origin master
+(Everything is up-to-date)
+git push origin descriptive-greetings
+(this will push everything from your local git branch to GitHub)
+
+You will notice that moon_flight.py is not part of the master branch and that's because we worked under the "descriptive-greetings" branch. 
+Browse to the "descriptive-greetings" branch and notice that the files in there, are in their own branch, but not part of the "master" branch.
+
+Branching is an important concept of Git/GitHub. 
