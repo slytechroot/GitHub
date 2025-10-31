@@ -1,0 +1,42 @@
+Install GIT on the system.
+
+Run the following commands to install Git:
+
+sudo apt update
+
+sudo apt install git -y
+
+
+Note: Avoid using sudo apt install git-all as it may cause the terminal to freeze or lead to verification issues.
+
+Identify the version of git you just installed.
+git -version
+
+What's the git command used to List, create, or delete branches?
+git branch ...
+
+What's the git command used to Download objects from another repository?
+git fetch
+
+What's the git command used to initialize a new repository or start a working area?
+git init
+
+Identify the option used to create a bare repository using the init command.
+To view detailed help for any Git command, use the syntax:
+
+git help <command>
+
+Before that, install the Git manual pages:
+
+sudo apt-get install git-man
+
+Now, use the following command to check the options available with git init:
+
+git help init
+
+Identify the option used to create a bare repository.
+git init --bare
+
+##############
+
+
